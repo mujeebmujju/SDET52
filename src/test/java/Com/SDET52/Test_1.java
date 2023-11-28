@@ -9,12 +9,14 @@ public class Test_1
 	@Test(groups="smoke")
 	public void ts1Test()
 	{
-		System.out.println("--ts1--");
+		System.out.println("--ts1---");
+		System.out.println("--ts2--");
 	}
 
 	@Test(groups="regression")
 	public void ts2Test()
 	{
-		System.out.println("--ts2--");
+		System.out.println("--ts3-");
+		
 	}
 }
