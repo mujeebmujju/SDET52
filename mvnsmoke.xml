@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="1" parallel="tests" name="Suite">
+<groups>
+<run>
+<include> name="smoke"></include>
+</run>
+</groups>
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="Com.SDET52.Test_2"/>
+      <class name="Com.SDET52.Test_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
